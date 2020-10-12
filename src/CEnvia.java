@@ -13,7 +13,7 @@ public class CEnvia {
             int pto = 8000;
             String dir = "127.0.0.1";
             Socket cl = new Socket(dir,pto);
-            System.out.println("Conexion con servidor establecida... lanzando FileChooser..");
+            System.out.println("Conexion con servidor establecida.. lanzando FileChooser..");
             JFileChooser jf = new JFileChooser();
             jf.setMultiSelectionEnabled(true);
             jf.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
